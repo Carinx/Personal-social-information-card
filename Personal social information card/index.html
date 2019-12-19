@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>个人信息卡片</title>
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="./CSS.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="profile-card js-profile-card">
+			<div class="profile-card__img">
+				<img src="./images/head.jpg" alt="profile card">
+			</div>
+
+			<div class="profile-card__cnt js-profile-cnt">
+				<div class="profile-card__name">加了椰子汁的冰</div>
+				<div class="profile-card__txt">没有时间解释了，快上号！</div>
+				<div class="profile-card-loc">
+					<span class="profile-card-loc__icon">
+						<img class="icon icon_local" src="./images/icon_localtion.svg" \>
+					</span>
+					<span class="profile-card-loc__txt">汕头,中国</span>
+				</div>
+
+				<div class="profile-card-inf">
+					<div class="profile-card-inf__item">
+						<div class="profile-card-inf__title" id="count">10086</div>
+						<div class="profile-card-inf__txt">点赞</div>
+					</div>
+
+					<div class="profile-card-inf__item">
+						<div class="profile-card-inf__title">1000</div>
+						<div class="profile-card-inf__txt">关注</div>
+					</div>
+
+					<div class="profile-card-inf__item">
+						<div class="profile-card-inf__title">123</div>
+						<div class="profile-card-inf__txt">文章</div>
+					</div>
+
+					<div class="profile-card-inf__item">
+						<div class="profile-card-inf__title">85</div>
+						<div class="profile-card-inf__txt">作品</div>
+					</div>
+				</div>
+
+				<div class="profile-card-social">
+					<a href="#" class="profile-card-social__item facebook">
+						<span class="icon-font">
+							<img class="icon" src="./images/icon_facebook.svg" \>
+						</span>
+					</a>
+
+					<a href="#" class="profile-card-social__item twitter">
+						<span class="icon-font">
+							<img class="icon" src="./images/icon_twitter.svg" \>
+						</span>
+					</a>
+
+					<a href="#" class="profile-card-social__item instagram">
+						<span class="icon-font">
+							<img class="icon" src="./images/icon_instagram.svg" \>
+						</span>
+					</a>
+
+					<a href="#" class="profile-card-social__item qq">
+						<span class="icon-font">
+							<img class="icon" src="./images/icon_QQ.svg" \>
+						</span>
+					</a>
+
+					<a href="#" class="profile-card-social__item github">
+						<span class="icon-font">
+							<img class="icon" src="./images/icon_github.svg" \>
+						</span>
+					</a>
+
+					<a href="#" class="profile-card-social__item weixin">
+						<span class="icon-font">
+							<img class="icon" src="./images/icon_Weixin.svg" \>
+						</span>
+					</a>
+
+					<a href="#" class="profile-card-social__item link">
+						<span class="icon-font">
+							<img class="icon" src="./images/icon-link.svg" \>
+						</span>
+					</a>
+
+				</div>
+
+				<div class="profile-card-ctr">
+					<button class="profile-card__button button--blue js-message-btn">留言</button>
+					<button class="profile-card__button button--orange" id="up_count">点赞</button>
+				</div>
+			</div>
+
+			<div class="profile-card-message js-message">
+				<form class="profile-card-form">
+					<div class="profile-card-form__container">
+						<textarea placeholder="说点什么吧..."></textarea>
+					</div>
+
+					<div class="profile-card-form__bottom">
+						<button class="profile-card__button button--blue js-message-close">
+							发送
+						</button>
+
+						<button class="profile-card__button button--gray js-message-close">
+							取消
+						</button>
+					</div>
+				</form>
+
+				<div class="profile-card__overlay js-message-close"></div>
+			</div>
+
+		</div>
+
+	</div>
+	<script src="./JS.js"></script>
+</body>
+
+</html>
